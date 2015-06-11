@@ -1,0 +1,33 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 5/11/15 7:55 AM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at net.minecraft.world.WorldServer.a(WorldServer.java:776)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:377)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:362)
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:605)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:489)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Mac OS X (x86_64) version 10.10.3
+	Java Version: 1.6.0_65, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 38367488 bytes (36 MB) / 129957888 bytes (123 MB) up to 129957888 bytes (123 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['Penguin_General'/266, l='default', x=-18.27, y=64.42, z=402.73]]
+	Is Modded: Definitely; Server brand changed to 'CanaryMod'
+	Type: Dedicated Server (map_server.txt)

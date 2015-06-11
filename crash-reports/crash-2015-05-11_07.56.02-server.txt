@@ -1,0 +1,311 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 5/11/15 7:56 AM
+Description: Watching Server
+
+java.lang.Error
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:412)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:524)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:412)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Server IO #7" Id=43 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@76b03a54
+	-  locked java.util.Collections$UnmodifiableSet@37793cb0
+	-  locked sun.nio.ch.KQueueSelectorImpl@2a9d9b15
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Netty Server IO #6" Id=42 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@4caac746
+	-  locked java.util.Collections$UnmodifiableSet@5c851ea1
+	-  locked sun.nio.ch.KQueueSelectorImpl@7903cc8e
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"File IO Thread" Id=61 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.c(ThreadedFileIOBase.java:54)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:31)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"Netty Server IO #5" Id=41 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@378ac153
+	-  locked java.util.Collections$UnmodifiableSet@c1d1adc
+	-  locked sun.nio.ch.KQueueSelectorImpl@34fc0ab4
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Netty Server IO #4" Id=40 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@35230a92
+	-  locked java.util.Collections$UnmodifiableSet@736b57d1
+	-  locked sun.nio.ch.KQueueSelectorImpl@729afd59
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Netty Server IO #3" Id=39 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@fcb1175
+	-  locked java.util.Collections$UnmodifiableSet@7d19b3c1
+	-  locked sun.nio.ch.KQueueSelectorImpl@457a2159
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Netty Server IO #2" Id=38 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@5e0c5be1
+	-  locked java.util.Collections$UnmodifiableSet@5b1c474d
+	-  locked sun.nio.ch.KQueueSelectorImpl@459ba96d
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Netty Server IO #1" Id=37 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@484b7b02
+	-  locked java.util.Collections$UnmodifiableSet@6b982f93
+	-  locked sun.nio.ch.KQueueSelectorImpl@6b7ad719
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Server Watchdog" Id=49 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:433)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:41)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"pool-3-thread-2" Id=48 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4dbfe16f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4dbfe16f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:196)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2025)
+	at java.util.concurrent.DelayQueue.poll(DelayQueue.java:209)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:611)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:602)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:955)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+	...
+
+
+"pool-3-thread-1" Id=47 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4dbfe16f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4dbfe16f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:196)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2025)
+	at java.util.concurrent.DelayQueue.poll(DelayQueue.java:209)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:611)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:602)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:955)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+	...
+
+
+"MCStats / Plugin Metrics" Id=46 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.canarymod.metrics.Metrics$1.run(Metrics.java:267)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"Netty Server IO #0" Id=36 RUNNABLE (in native)
+	at sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+	at sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:136)
+	at sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:69)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:69)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@17ba7c47
+	-  locked java.util.Collections$UnmodifiableSet@6d301b14
+	-  locked sun.nio.ch.KQueueSelectorImpl@2180c7eb
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:80)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:596)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:306)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	...
+
+
+"Thread-9" Id=32 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.canarymod.util.SysOutWriterThread.run(SysOutWriterThread.java:83)
+
+
+"DestroyJavaVM" Id=30 RUNNABLE
+
+
+"Server thread" Id=28 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:412)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:524)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"Server Infinisleeper" Id=27 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:98)
+
+
+"NonBlockingInputStreamThread" Id=26 WAITING on jline.internal.NonBlockingInputStream@dc5267c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on jline.internal.NonBlockingInputStream@dc5267c
+	at jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"Snooper Timer" Id=21 TIMED_WAITING on java.util.TaskQueue@a619df4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@a619df4
+	at java.util.TimerThread.mainLoop(Timer.java:509)
+	at java.util.TimerThread.run(Timer.java:462)
+
+
+"TimerQueue" Id=20 TIMED_WAITING on javax.swing.TimerQueue@ec9037f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on javax.swing.TimerQueue@ec9037f
+	at javax.swing.TimerQueue.run(TimerQueue.java:232)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"Thread-6" Id=19 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f048e6e
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f048e6e
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1987)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:399)
+	at com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77)
+	at net.minecraft.server.gui.MinecraftServerGui$4.run(MinecraftServerGui.java:147)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"AWT-EventQueue-0" Id=15 RUNNABLE
+	at apple.laf.JRSUIControl.paintChangesToCGContext(Native Method)
+	at apple.laf.JRSUIControl.paintToCGContext(JRSUIControl.java:234)
+	-  locked apple.laf.JRSUIControl@41b244a0
+	at apple.laf.JRSUIControl.paint(JRSUIControl.java:218)
+	at com.apple.laf.AquaPainter$DirectOSXSurfacePainter.drawIntoCGContext(AquaPainter.java:56)
+	at apple.awt.OSXSurfaceData.performNativeCocoaDrawing(Native Method)
+	at apple.awt.OSXSurfaceData.performCocoaDrawing(OSXSurfaceData.java:1445)
+	-  locked java.lang.Object@1eb78612
+	at com.apple.laf.AquaPainter$DirectOSXSurfacePainter.paint(AquaPainter.java:51)
+	at com.apple.laf.AquaPainter.paint(AquaPainter.java:37)
+	...
+
+
+"Java2D Disposer" Id=14 WAITING on java.lang.ref.ReferenceQueue$Lock@363ba4ad
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@363ba4ad
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+	at sun.java2d.Disposer.run(Disposer.java:125)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"AWT-Shutdown" Id=12 WAITING on java.lang.Object@5b875ac
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@5b875ac
+	at java.lang.Object.wait(Object.java:485)
+	at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:265)
+	at java.lang.Thread.run(Thread.java:695)
+
+
+"AWT-AppKit" Id=11 RUNNABLE
+
+
+"Signal Dispatcher" Id=6 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@11357223
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@11357223
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@4bd860a8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@4bd860a8
+	at java.lang.Object.wait(Object.java:485)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:61)
+	at java.lang.Thread.run(Thread.java:695)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Mac OS X (x86_64) version 10.10.3
+	Java Version: 1.6.0_65, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 40295872 bytes (38 MB) / 129957888 bytes (123 MB) up to 129957888 bytes (123 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['Penguin_General'/266, l='default', x=-18.27, y=64.42, z=402.73]]
+	Is Modded: Definitely; Server brand changed to 'CanaryMod'
+	Type: Dedicated Server (map_server.txt)
