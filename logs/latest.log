@@ -1,239 +1,193 @@
-[07:37:26] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
-[07:37:26] [CanaryMod] [INFO]: Canary Path: /Users/akowalski/Documents/CanaryMod/CanaryMod-1.2.0.jar & Working From: /Users/akowalski/Documents/CanaryMod
-[07:37:26] [CanaryMod] [INFO]: Registered xml Database
-[07:37:26] [CanaryMod] [INFO]: Found 1 plugins; total: 1
-[07:37:27] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
-[07:37:27] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[07:37:27] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
-[07:37:27] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
-[07:37:27] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
-[07:37:28] [CanaryMod] [INFO]: Enabling early Plugins...
-[07:37:28] [CanaryMod] [INFO]: Enabling late Plugins...
-[07:37:28] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:37:29] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:37:29] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:37:29] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:37:29] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:37:29] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: syntax error (<Unknown source>#131) in <Unknown source> at line number 131
-[07:37:29] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
-[07:37:30] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 97%
-[07:37:30] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (2.859s)! For help, type "help" or "?"
-[07:37:31] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:44:24] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:44:24] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:44:24] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:44:24] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:44:24] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:44:24] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:44:25] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:44:25] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: syntax error (<Unknown source>#136) in <Unknown source> at line number 136
-[07:45:10] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:45:10] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:45:10] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:45:10] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:45:10] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:45:10] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:45:10] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:45:10] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: syntax error (<Unknown source>#135) in <Unknown source> at line number 135
-[07:46:07] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:46:07] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:46:07] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:46:07] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:46:07] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:46:07] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:46:07] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:46:07] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/factions.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: syntax error (<Unknown source>#135) in <Unknown source> at line number 135
-[07:49:00] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:49:00] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:49:00] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:49:00] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:49:01] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:49:01] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:49:01] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:49:20] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player Penguin_General is d54c9b76-ef90-455e-b274-d70594d1c801
-[07:49:21] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: Penguin_General[/192.168.3.2:52360] logged in with entity id 189 at (-815.8829190774418, 4.0625, -158.69047974388306)
-[07:49:21] [net.minecraft.server.MinecraftServer] [INFO]: Penguin_General joined the game
-[07:50:01] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player ShowerCurtains is fb0d7ddb-346b-46d6-9468-381cbcc2959a
-[07:50:01] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: ShowerCurtains[/192.168.2.55:52015] logged in with entity id 350 at (-785.3450966960439, 7.0, -124.17998326706007)
-[07:50:01] [net.minecraft.server.MinecraftServer] [INFO]: ShowerCurtains joined the game
-[07:50:06] [CanaryMod] [INFO]: <&7ShowerCurtains&f> hi friend
-[07:50:07] [net.minecraft.network.NetHandlerPlayServer] [INFO]: ShowerCurtains lost connection: Disconnected
-[07:50:07] [net.minecraft.server.MinecraftServer] [INFO]: ShowerCurtains left the game
-[07:53:04] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:53:04] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:53:04] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:53:04] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:53:04] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:53:04] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:53:04] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[07:53:04] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:54:36] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(1000), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot call method "decreaseItemStackSize(int, int)" of undefined (<Unknown source>#9) in <Unknown source> at line number 9
-[07:54:36] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:54:36] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(1000)
-[07:54:44] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self,1000), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(int, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[07:54:44] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:54:44] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self,1000)
-[07:55:11] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 1000), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(int, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[07:55:11] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:55:11] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 1000)
-[07:55:16] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(int, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[07:55:16] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:55:16] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[07:55:40] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(int, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[07:55:40] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:55:40] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[07:55:46] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[07:55:46] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[07:55:46] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[07:55:46] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[07:55:46] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[07:55:46] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[07:55:46] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[07:55:46] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[07:55:48] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(int, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[07:55:48] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[07:55:48] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[08:00:14] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:00:14] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:00:14] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:00:14] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:00:15] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:00:15] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:00:15] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:00:34] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function decreaseItemStackSize(net.canarymod.api.inventory.Item, int). (<Unknown source>#9) in <Unknown source> at line number 9
-[08:00:34] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:00:34] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[08:02:14] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:02:14] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:02:14] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:02:14] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:02:14] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:02:14] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:02:14] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:02:14] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:02:16] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function leatherleggings. (<Unknown source>#12) in <Unknown source> at line number 12
-[08:02:16] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:02:16] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[08:03:02] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:03:02] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:03:02] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:03:02] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:03:02] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:03:02] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:03:02] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:03:02] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:03:03] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[08:03:17] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:03:17] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:03:17] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:03:17] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:03:17] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:03:17] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:03:17] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:03:17] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:03:18] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam()
-[08:03:31] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 1000)
-[08:03:41] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:10:51] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:10:51] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:10:52] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:10:52] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:10:52] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:10:52] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:10:52] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:10:52] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:10:54] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 100), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function chainChestplate. (<Unknown source>#14) in <Unknown source> at line number 14
-[08:10:54] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:10:54] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:11:59] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:11:59] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:11:59] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:11:59] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:11:59] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:11:59] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:11:59] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:11:59] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:12:00] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 100), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function chainChestplate. (<Unknown source>#13) in <Unknown source> at line number 13
-[08:12:00] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:12:00] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:14:10] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:14:10] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:14:10] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:14:10] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:14:10] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:14:10] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:14:10] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:14:23] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 100), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function stoneShovel. (<Unknown source>#14) in <Unknown source> at line number 14
-[08:14:23] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:14:23] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:16:56] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:16:56] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:16:56] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:16:56] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:16:57] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:16:57] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:16:57] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:17:09] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:17:09] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:17:09] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:17:10] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:17:10] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:17:10] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:17:10] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
-[08:17:10] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:17:11] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 100), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function bottle. (<Unknown source>#14) in <Unknown source> at line number 14
-[08:17:11] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:17:11] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:18:48] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:18:48] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:18:48] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:18:48] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:18:48] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:18:48] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:18:48] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:18:56] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: joinTeam(self, 100), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function goldenHelmet. (<Unknown source>#14) in <Unknown source> at line number 14
-[08:18:56] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:18:56] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:20:28] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
-[08:20:28] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
-[08:20:28] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
-[08:20:28] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
-[08:20:28] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
-[08:20:28] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
-[08:20:28] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
-[08:20:35] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 100)
-[08:21:05] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player ShowerCurtains is fb0d7ddb-346b-46d6-9468-381cbcc2959a
-[08:21:05] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: ShowerCurtains[/192.168.2.55:52088] logged in with entity id 346425 at (-785.3450966960439, 4.0, -124.17998326706007)
-[08:21:05] [net.minecraft.server.MinecraftServer] [INFO]: ShowerCurtains joined the game
-[08:21:08] [net.minecraft.server.MinecraftServer] [INFO]: [ShowerCurtains: Teleported ShowerCurtains to Penguin_General]
-[08:21:08] [CanaryMod] [INFO]: Command used by ShowerCurtains: /tp Penguin_General
-[08:21:22] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: myskyscraper, Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: ReferenceError: "myskyscraper" is not defined. (<Unknown source>#1) in <Unknown source> at line number 1
-[08:21:22] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
-[08:21:22] [CanaryMod] [INFO]: Command used by ShowerCurtains: /js myskyscraper
-[08:22:08] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 1)
-[08:22:25] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 2)
-[08:23:14] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 10)
-[08:23:27] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 12)
-[08:23:39] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 10)
-[08:24:41] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 12)
-[08:26:14] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, -1)
-[08:31:38] [net.minecraft.server.MinecraftServer] [INFO]: Penguin_General fell out of the world
-[08:31:38] [net.minecraft.server.MinecraftServer] [INFO]: [ShowerCurtains: Killed Penguin_General]
-[08:31:38] [CanaryMod] [INFO]: Command used by ShowerCurtains: /kill penguin_general
-[08:31:46] [net.minecraft.server.MinecraftServer] [INFO]: [ShowerCurtains: Teleported Penguin_General to ShowerCurtains]
-[08:31:46] [CanaryMod] [INFO]: Command used by ShowerCurtains: /tp Penguin_General ShowerCurtains
-[08:32:29] [net.minecraft.server.MinecraftServer] [INFO]: [ShowerCurtains: Set own game mode to Survival Mode]
-[08:32:29] [CanaryMod] [INFO]: Command used by ShowerCurtains: /gamemode survival
-[08:37:37] [net.minecraft.server.MinecraftServer] [INFO]: [Penguin_General: Given [Iron Pickaxe] * 10 to ShowerCurtains]
-[08:37:37] [CanaryMod] [INFO]: Command used by Penguin_General: /give ShowerCurtains minecraft:iron_pickaxe 10
-[08:38:10] [net.minecraft.network.NetHandlerPlayServer] [INFO]: Penguin_General lost connection: Disconnected
-[08:38:10] [net.minecraft.server.MinecraftServer] [INFO]: Penguin_General left the game
-[08:41:00] [net.minecraft.network.NetHandlerPlayServer] [INFO]: ShowerCurtains lost connection: Disconnected
-[08:41:00] [net.minecraft.server.MinecraftServer] [INFO]: ShowerCurtains left the game
-[08:41:03] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
-[08:41:03] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
-[08:41:03] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
-[08:41:03] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
-[08:41:03] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
-[08:41:04] [CanaryMod] [INFO]: Disabling Plugins ...
-[08:41:04] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:04:32] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
+[08:04:32] [CanaryMod] [INFO]: Canary Path: /Users/akowalski/Documents/CanaryMod/CanaryMod-1.2.0.jar & Working From: /Users/akowalski/Documents/CanaryMod
+[08:04:32] [CanaryMod] [INFO]: Registered xml Database
+[08:04:32] [CanaryMod] [INFO]: Found 1 plugins; total: 1
+[08:04:33] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[08:04:33] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[08:04:33] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[08:04:33] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[08:04:33] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[08:04:34] [CanaryMod] [INFO]: Enabling early Plugins...
+[08:04:34] [CanaryMod] [INFO]: Enabling late Plugins...
+[08:04:34] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:04:35] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:04:35] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:04:35] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:04:35] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:04:35] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#16) in <Unknown source> at line number 16
+[08:04:35] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[08:04:36] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 82%
+[08:04:36] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (2.862s)! For help, type "help" or "?"
+[08:04:37] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:05:47] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:05:47] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:05:47] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:05:47] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:05:47] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:05:47] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:05:47] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:05:47] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #4 : "player" is not defined.
+ var utils = require('utils');
+> var hasRedWool = inventory(player).contains(items.woolRed(1));
+ 
+
+[08:07:55] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:07:55] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:07:55] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:07:55] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:07:55] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:07:55] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:07:55] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:07:55] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#15) in <Unknown source> at line number 15
+[08:09:13] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:09:13] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:09:13] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:09:13] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:09:13] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:09:13] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:09:14] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:09:14] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#4) in <Unknown source> at line number 4
+[08:10:57] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:10:57] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:10:57] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:10:57] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:10:57] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:10:57] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:10:57] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:10:57] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#4) in <Unknown source> at line number 4
+[08:13:35] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:13:35] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:13:36] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:13:36] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:13:36] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:13:36] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:13:36] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:13:36] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#4) in <Unknown source> at line number 4
+[08:15:15] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:15:15] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:15:15] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:15:15] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:15:15] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:15:15] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:15:15] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:15:15] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing variable name (<Unknown source>#5) in <Unknown source> at line number 5
+[08:23:58] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:23:58] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:23:58] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:23:59] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:23:59] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:23:59] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:23:59] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:23:59] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error evaluating module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #742 : javax.script.ScriptException: sun.org.mozilla.javascript.internal.EvaluatorException: missing ; before statement (<Unknown source>#4) in <Unknown source> at line number 4
+[08:25:10] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:25:10] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:25:10] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:25:10] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:25:10] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:25:10] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:25:10] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:25:10] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/classesEmpire.js line #4 : "player" is not defined.
+ var utils = require('utils');
+> var hasRedWool = inventory(player).contains(items.woolRed(1))
+ //{
+
+[08:26:23] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:26:23] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:26:23] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:26:23] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:26:23] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:26:23] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:26:23] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:26:33] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player Penguin_General is d54c9b76-ef90-455e-b274-d70594d1c801
+[08:26:33] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: Penguin_General[/192.168.3.2:54032] logged in with entity id 218 at (-816.0811671058334, 4.0, -150.31383193780687)
+[08:26:34] [net.minecraft.server.MinecraftServer] [INFO]: Penguin_General joined the game
+[08:27:01] [CanaryMod] [INFO]: Command used by Penguin_General: /js joinTeam(self, 1)
+[08:27:37] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: changeJob(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: ReferenceError: "changeJob" is not defined. (<Unknown source>#1) in <Unknown source> at line number 1
+[08:27:37] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
+[08:27:37] [CanaryMod] [INFO]: Command used by Penguin_General: /js changeJob()
+[08:33:42] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:33:42] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:33:42] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:33:42] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:33:43] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:33:43] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:33:43] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:34:03] [net.minecraft.server.MinecraftServer] [INFO]: [Penguin_General: Set the time to 1000]
+[08:34:03] [CanaryMod] [INFO]: Command used by Penguin_General: /time set day
+[08:34:08] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: changeJob(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function hasItemStack(ItemType, int ). (<Unknown source>#18) in <Unknown source> at line number 18
+[08:34:08] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
+[08:34:08] [CanaryMod] [INFO]: Command used by Penguin_General: /js changeJob()
+[08:38:54] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:38:54] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:38:54] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:38:54] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:38:54] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:38:54] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:38:54] [CanaryMod] [INFO]: Command used by Penguin_General: /js refresh()
+[08:38:54] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:38:57] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: changeJob(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function hasItemStack(net.canarymod.api.inventory.Item). (<Unknown source>#18) in <Unknown source> at line number 18
+[08:38:57] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
+[08:38:57] [CanaryMod] [INFO]: Command used by Penguin_General: /js changeJob()
+[08:39:04] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: changeJob(self, 0), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function hasItemStack(net.canarymod.api.inventory.Item). (<Unknown source>#18) in <Unknown source> at line number 18
+[08:39:04] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
+[08:39:04] [CanaryMod] [INFO]: Command used by Penguin_General: /js changeJob(self, 0)
+[08:43:26] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:43:26] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:43:26] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:43:26] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:43:26] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:43:26] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:43:26] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:43:30] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: changeJob(self, 0), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot find function hasItemStack(net.canarymod.api.inventory.Item). (<Unknown source>#18) in <Unknown source> at line number 18
+[08:43:30] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: [object Error] (<Unknown source>#630) in <Unknown source> at line number 630
+[08:43:30] [CanaryMod] [INFO]: Command used by Penguin_General: /js changeJob(self, 0)
+[08:46:20] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:46:20] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:46:20] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:46:20] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:46:20] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:46:20] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:46:20] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/creeperHeadRecipe(hard).js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/creeperHeadRecipe(hard).js line #21 : "itemStack" is not defined.
+     //    server.removeRecipe(addedRecipe);
+> })
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/creeperHeadRecipe.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/creeperHeadRecipe.js line #21 : "itemStack" is not defined.
+ undefined
+> undefined
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/netherStarRecipe.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/netherStarRecipe.js line #21 : "itemStack" is not defined.
+ undefined
+> undefined
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/skeletonSkullRecipe(Hard).js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/skeletonSkullRecipe(Hard).js line #21 : "itemStack" is not defined.
+     //    server.removeRecipe(addedRecipe);
+> })
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/skeletonSkullRecipe.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/skeletonSkullRecipe.js line #21 : "itemStack" is not defined.
+ undefined
+> undefined
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/zombieHeadRecipe(hard).js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/zombieHeadRecipe(hard).js line #21 : "itemStack" is not defined.
+     //    // to remove...
+>     //    server.removeRecipe(addedRecipe);
+ })
+
+[08:46:20] [ScriptCraft] [ERROR]: Plugin /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/zombieHeadRecipe.js Error: Error executing module /Users/akowalski/Documents/CanaryMod/scriptcraft/plugins/penguin_general/zombieHeadRecipe.js line #21 : "itemStack" is not defined.
+ undefined
+> undefined
+
+[08:46:52] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
+[08:46:52] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[08:46:52] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[08:46:52] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[08:46:52] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[08:46:52] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[08:46:52] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[08:47:27] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[08:47:27] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[08:47:27] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[08:47:27] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[08:47:27] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[08:47:27] [CanaryMod] [INFO]: Disabling Plugins ...
+[08:47:27] [CanaryMod] [INFO]: Disabling plugin ScriptCraft

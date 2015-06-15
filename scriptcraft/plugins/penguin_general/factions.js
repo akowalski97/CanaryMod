@@ -56,9 +56,8 @@ function joinTeam(player, color) {
     if (color == 1) {
         inventory(player)
             .add(items.roseRed(4))
-            .add(items.ironChestplate(1))
-            .add(items.leatherLeggings(1))
-            .add(items.leatherBoots(1));
+            .add(items.woolRed(1));
+
 
     } else if (color == 10) {
         inventory(player)
